@@ -6,15 +6,15 @@
   <display-name>Archetype Created Web Application</display-name>
   
   <!-- this is the front controller and need to write code for this to use this as a dispatcher servlet, add spring libraries using pom-->
-  <servlet>
-		<servlet-name>akshay</servlet-name>
-		<servlet-class>
-			org.springframework.web.servlet.DispatcherServlet
-		</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>akshay</servlet-name>
-		<url-pattern>/</url-pattern>
-	</servlet-mapping>
+<!--   <servlet> -->
+<!-- 		<servlet-name>akshay</servlet-name> -->
+<!-- 		<servlet-class> -->
+<!-- 			org.springframework.web.servlet.DispatcherServlet -->
+<!-- 		</servlet-class> -->
+<!-- 	</servlet> -->
+<!-- 	<servlet-mapping> -->
+<!-- 		<servlet-name>akshay</servlet-name> -->
+<!-- 		<url-pattern>/</url-pattern> -->
+<!-- 	</servlet-mapping> -->
 	
 </web-app>
