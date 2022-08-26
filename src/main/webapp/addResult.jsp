@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1" isELIgnored="false" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +8,8 @@
 </head>
 <body>
 
-this is add result <%= request.getAttribute("result") %>
+this is add result :<%= request.getAttribute("result") %> <br>
+same result using expression language is : ${result} 
 
 </body>
 </html>

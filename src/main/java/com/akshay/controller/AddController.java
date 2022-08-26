@@ -5,6 +5,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
@@ -25,5 +26,19 @@ public class AddController {
 		//return "addResult.jsp";
 		return ModelAndView;
 	}
+	
+//	@RequestMapping("/subtract")
+//	public ModelAndView subtract(@RequestParam("t3") int i, @RequestParam("t4") int j) {
+//		System.out.println("this is subtract controller");
+//		
+//		int res = i - j;
+//		
+//		ModelAndView ModelAndView = new ModelAndView();
+//		ModelAndView.setViewName("subtractResult");
+//		ModelAndView.addObject("result2", res);
+//		
+//		//return "addResult.jsp";
+//		return ModelAndView;
+//	}
 
 }
